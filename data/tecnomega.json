@@ -1,0 +1,370 @@
+{
+  "clientes": [
+    {
+      "id": "CLI001",
+      "cedula": "0912345678",
+      "nombres": "Juan Pérez",
+      "email": "juan.perez@email.com",
+      "telefono": "0991234567",
+      "edad": 28,
+      "genero": "M"
+    },
+    {
+      "id": "CLI002",
+      "cedula": "0923456789",
+      "nombres": "María González",
+      "email": "maria.gonzalez@email.com",
+      "telefono": "0992345678",
+      "edad": 32,
+      "genero": "F"
+    },
+    {
+      "id": "CLI003",
+      "cedula": "0934567890",
+      "nombres": "Carlos Rodríguez",
+      "email": "carlos.rodriguez@email.com",
+      "telefono": "0993456789",
+      "edad": 25,
+      "genero": "M"
+    },
+    {
+      "id": "CLI004",
+      "cedula": "0945678901",
+      "nombres": "Ana Martínez",
+      "email": "ana.martinez@email.com",
+      "telefono": "0994567890",
+      "edad": 30,
+      "genero": "F"
+    },
+    {
+      "id": "CLI005",
+      "cedula": "0956789012",
+      "nombres": "Luis Fernández",
+      "email": "luis.fernandez@email.com",
+      "telefono": "0995678901",
+      "edad": 35,
+      "genero": "M"
+    },
+    {
+      "id": "CLI006",
+      "cedula": "0967890123",
+      "nombres": "Sofia López",
+      "email": "sofia.lopez@email.com",
+      "telefono": "0996789012",
+      "edad": 27,
+      "genero": "F"
+    },
+    {
+      "id": "CLI007",
+      "cedula": "0978901234",
+      "nombres": "Diego Torres",
+      "email": "diego.torres@email.com",
+      "telefono": "0997890123",
+      "edad": 29,
+      "genero": "M"
+    },
+    {
+      "id": "CLI008",
+      "cedula": "0989012345",
+      "nombres": "Valentina Ruiz",
+      "email": "valentina.ruiz@email.com",
+      "telefono": "0998901234",
+      "edad": 24,
+      "genero": "F"
+    },
+    {
+      "id": "CLI009",
+      "cedula": "0990123456",
+      "nombres": "Andrés Silva",
+      "email": "andres.silva@email.com",
+      "telefono": "0999012345",
+      "edad": 31,
+      "genero": "M"
+    },
+    {
+      "id": "CLI010",
+      "cedula": "0901234567",
+      "nombres": "Camila Herrera",
+      "email": "camila.herrera@email.com",
+      "telefono": "0990123456",
+      "edad": 26,
+      "genero": "F"
+    }
+  ],
+  "productos": [
+    {
+      "id": "PROD001",
+      "codigo": "LAP-HP-001",
+      "nombre": "Laptop HP Pavilion",
+      "categoria": "Laptops",
+      "precio": 850.00,
+      "stock": 15
+    },
+    {
+      "id": "PROD002",
+      "codigo": "LAP-DEL-002",
+      "nombre": "Laptop Dell Inspiron",
+      "categoria": "Laptops",
+      "precio": 920.00,
+      "stock": 12
+    },
+    {
+      "id": "PROD003",
+      "codigo": "MON-SAM-003",
+      "nombre": "Monitor Samsung 24 pulgadas",
+      "categoria": "Monitores",
+      "precio": 180.00,
+      "stock": 25
+    },
+    {
+      "id": "PROD004",
+      "codigo": "TEC-LOG-004",
+      "nombre": "Teclado Logitech K380",
+      "categoria": "Periféricos",
+      "precio": 45.00,
+      "stock": 40
+    },
+    {
+      "id": "PROD005",
+      "codigo": "MOU-LOG-005",
+      "nombre": "Mouse Logitech MX Master 3",
+      "categoria": "Periféricos",
+      "precio": 99.00,
+      "stock": 30
+    },
+    {
+      "id": "PROD006",
+      "codigo": "AUD-SON-006",
+      "nombre": "Audífonos Sony WH-1000XM4",
+      "categoria": "Audio",
+      "precio": 280.00,
+      "stock": 18
+    },
+    {
+      "id": "PROD007",
+      "codigo": "TAB-SAM-007",
+      "nombre": "Tablet Samsung Galaxy Tab S8",
+      "categoria": "Tablets",
+      "precio": 650.00,
+      "stock": 10
+    },
+    {
+      "id": "PROD008",
+      "codigo": "IMP-CAN-008",
+      "nombre": "Impresora Canon Pixma",
+      "categoria": "Impresoras",
+      "precio": 220.00,
+      "stock": 8
+    },
+    {
+      "id": "PROD009",
+      "codigo": "WEB-LOG-009",
+      "nombre": "Webcam Logitech C920",
+      "categoria": "Periféricos",
+      "precio": 79.00,
+      "stock": 22
+    },
+    {
+      "id": "PROD010",
+      "codigo": "SSD-KIN-010",
+      "nombre": "SSD Kingston 1TB",
+      "categoria": "Almacenamiento",
+      "precio": 95.00,
+      "stock": 35
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "PED001",
+      "codigo": "ORD-2025-001",
+      "clienteId": "CLI001",
+      "fecha": "2025-01-15",
+      "subtotal": 850.00,
+      "iva": 102.00,
+      "total": 952.00,
+      "estado": "completado"
+    },
+    {
+      "id": "PED002",
+      "codigo": "ORD-2025-002",
+      "clienteId": "CLI002",
+      "fecha": "2025-01-16",
+      "subtotal": 225.00,
+      "iva": 27.00,
+      "total": 252.00,
+      "estado": "pendiente"
+    },
+    {
+      "id": "PED003",
+      "codigo": "ORD-2025-003",
+      "clienteId": "CLI003",
+      "fecha": "2025-01-17",
+      "subtotal": 920.00,
+      "iva": 110.40,
+      "total": 1030.40,
+      "estado": "completado"
+    },
+    {
+      "id": "PED004",
+      "codigo": "ORD-2025-004",
+      "clienteId": "CLI004",
+      "fecha": "2025-01-18",
+      "subtotal": 379.00,
+      "iva": 45.48,
+      "total": 424.48,
+      "estado": "en_proceso"
+    },
+    {
+      "id": "PED005",
+      "codigo": "ORD-2025-005",
+      "clienteId": "CLI005",
+      "fecha": "2025-01-19",
+      "subtotal": 650.00,
+      "iva": 78.00,
+      "total": 728.00,
+      "estado": "completado"
+    },
+    {
+      "id": "PED006",
+      "codigo": "ORD-2025-006",
+      "clienteId": "CLI006",
+      "fecha": "2025-01-20",
+      "subtotal": 144.00,
+      "iva": 17.28,
+      "total": 161.28,
+      "estado": "pendiente"
+    },
+    {
+      "id": "PED007",
+      "codigo": "ORD-2025-007",
+      "clienteId": "CLI007",
+      "fecha": "2025-01-21",
+      "subtotal": 280.00,
+      "iva": 33.60,
+      "total": 313.60,
+      "estado": "completado"
+    },
+    {
+      "id": "PED008",
+      "codigo": "ORD-2025-008",
+      "clienteId": "CLI008",
+      "fecha": "2025-01-22",
+      "subtotal": 220.00,
+      "iva": 26.40,
+      "total": 246.40,
+      "estado": "en_proceso"
+    },
+    {
+      "id": "PED009",
+      "codigo": "ORD-2025-009",
+      "clienteId": "CLI009",
+      "fecha": "2025-01-23",
+      "subtotal": 174.00,
+      "iva": 20.88,
+      "total": 194.88,
+      "estado": "completado"
+    },
+    {
+      "id": "PED010",
+      "codigo": "ORD-2025-010",
+      "clienteId": "CLI010",
+      "fecha": "2025-01-24",
+      "subtotal": 95.00,
+      "iva": 11.40,
+      "total": 106.40,
+      "estado": "pendiente"
+    }
+  ],
+  "detalle_pedido": [
+    {
+      "id": "DET001",
+      "codigo": "DET-001",
+      "pedidoId": "PED001",
+      "productoId": "PROD001",
+      "cantidad": 1,
+      "detalle": "Laptop HP Pavilion para trabajo",
+      "precioUnit": 850.00
+    },
+    {
+      "id": "DET002",
+      "codigo": "DET-002",
+      "pedidoId": "PED002",
+      "productoId": "PROD003",
+      "cantidad": 1,
+      "detalle": "Monitor para oficina",
+      "precioUnit": 180.00
+    },
+    {
+      "id": "DET003",
+      "codigo": "DET-003",
+      "pedidoId": "PED002",
+      "productoId": "PROD004",
+      "cantidad": 1,
+      "detalle": "Teclado inalámbrico",
+      "precioUnit": 45.00
+    },
+    {
+      "id": "DET004",
+      "codigo": "DET-004",
+      "pedidoId": "PED003",
+      "productoId": "PROD002",
+      "cantidad": 1,
+      "detalle": "Laptop Dell para estudiante",
+      "precioUnit": 920.00
+    },
+    {
+      "id": "DET005",
+      "codigo": "DET-005",
+      "pedidoId": "PED004",
+      "productoId": "PROD006",
+      "cantidad": 1,
+      "detalle": "Audífonos con cancelación de ruido",
+      "precioUnit": 280.00
+    },
+    {
+      "id": "DET006",
+      "codigo": "DET-006",
+      "pedidoId": "PED004",
+      "productoId": "PROD005",
+      "cantidad": 1,
+      "detalle": "Mouse ergonómico",
+      "precioUnit": 99.00
+    },
+    {
+      "id": "DET007",
+      "codigo": "DET-007",
+      "pedidoId": "PED005",
+      "productoId": "PROD007",
+      "cantidad": 1,
+      "detalle": "Tablet para diseño",
+      "precioUnit": 650.00
+    },
+    {
+      "id": "DET008",
+      "codigo": "DET-008",
+      "pedidoId": "PED006",
+      "productoId": "PROD004",
+      "cantidad": 2,
+      "detalle": "Teclados para equipo",
+      "precioUnit": 45.00
+    },
+    {
+      "id": "DET009",
+      "codigo": "DET-009",
+      "pedidoId": "PED006",
+      "productoId": "PROD009",
+      "cantidad": 2,
+      "detalle": "Webcams para reuniones",
+      "precioUnit": 79.00
+    },
+    {
+      "id": "DET010",
+      "codigo": "DET-010",
+      "pedidoId": "PED007",
+      "productoId": "PROD006",
+      "cantidad": 1,
+      "detalle": "Audífonos premium",
+      "precioUnit": 280.00
+    }
+  ]
+}
