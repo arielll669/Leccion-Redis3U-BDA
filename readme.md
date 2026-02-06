@@ -217,9 +217,9 @@ Ver capturas de pantalla en la carpeta `evidencias/` del proyecto.
 
 ## Autor
 
-**Nombre:** [Tu nombre]
+**Nombre:** Ariel Llumiquinga
 **Materia:** Base de Datos Avanzada
-**Institución:** [Tu institución]
+**Institución:** Universidad de las fuerzas Armadas ESPE
 **Fecha:** Febrero 2026
 
 ## Notas
